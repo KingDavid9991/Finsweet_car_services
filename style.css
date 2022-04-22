@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 .text-section h1{
  width: 524px;
 height: 228px;
@@ -14,20 +19,23 @@ color: #1E1B1B;
 
 .flex{
     display: flex;
+    flex-direction: row;
 }
 
-.mech-sect .text-section{
-    width: 50%;
+.mech-sect .text-section, .mech-sect .side-section{
+    width: 45%;
 }
+
+.mech-sect .side-section{
+    width: 45%;
+ margin-left: 60px;
+}
+
+
 .mech-sect{
     padding: 80px 0;
 }
 
-.eclipse{
-    width: 72px;
-height: 72px;
-left: 975px;
-top: 1952px;
-background: #661CE7;
-border-radius: 50%;
+.image-bx .text-area{
+    width
 }
