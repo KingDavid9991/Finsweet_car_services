@@ -67,7 +67,7 @@ body{
 }
 
 #hero-section .image-section {
-    background-image: url(/images/bg-image.png);
+    background-image: url(./images/bg-image.png);
     background-size: cover;
     background-position: center;
     min-height: 68vh;
@@ -281,19 +281,19 @@ input:focus{
 .offer-link a:hover{
     color: #FF6433;
 }
-/* Styling Get in touch section*/
+
 #contact-us{
     padding-bottom: 8%;
 }
 .contact-bg{
-    background-image: url(/images/BG.png);
+    background-image: url(./images/BG.png);
     background-size: cover;
     background-position: center;
     width: 50%;
     height: 40vh;
 }
 .contact-bg2{
-    background-image: url(/images/ovGrEUgrkyE.png);
+    background-image: url(./images/ovGrEUgrkyE.png);
     background-size: cover;
     background-position: center;
     width: 50%;
@@ -344,7 +344,7 @@ input:focus{
     color: #1E1B1B;
     opacity: 0.7;
 }
-/* Styling brands section */
+/* brands section */
 .our-brands h2{
     font-size: 44px;
     text-align: center;
@@ -358,7 +358,7 @@ input:focus{
     width: 75%;
 }
 
-/*Customers Review Section */
+/*Cs Review Sect */
 .review-width{
     width: 70%;
     margin: auto;
